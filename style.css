@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2? family= Manrope:wght@400;700;800 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #333333;
+    font-family: 'Manrope', sans-serif;
+}
+
+.menu_containe {
+    position: absolute;
+    top: 20;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+}
+
+.menu-1{
+    font-size: 50px;
+    margin-right: center;
+    display:inline-flex;
+    align-items: center;
+}
+
+.menu-2{
+    font-size: 50px;
+    margin-right: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo-1 {
+    width: 0;
+}
+
+.logo-2 {
+    width: 400px;
+}
+
+.menu_containe .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu_containe .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu_containe .navbar ul li a:hover{
+    color: #a943d8;
+}
+
+.header-content{
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+.mid-line {
+    top: 0;
+    left: 0;
+    right: 0;
+    display:inline-flex;
+    z-index: 1000;
+}
+
+.rec {
+    top: 0;
+    left: 0;
+    right: 0;
+    display:inline-flex;
+    z-index: 1000;
+}
+
+.reg {
+    top: 0;
+    left: 0;
+    right: 0;
+    display:inline-flex;
+    z-index: 1000;
+}
+
+.linetxt{
+    font-family: 'Arvo', serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 61px;
+    
+}
+
+.parrafo{
+    line-height: 70px;
+    position: absolute;
+    width: 619px;
+    height: 404px;
+    left: 200px;
+    top: 400px;  
+}
+
+.cita{
+    position: absolute;
+    width: 619px;
+    height: 404px;
+    left: 300px;
+    top: 700px; 
+}
+
+.perro-gato{
+    position: absolute;
+    width: 525px;
+    height: 715px;
+    left: 1200px;
+    top: 280px;
+}
+
+.Sombra{
+    position: absolute;
+    width: 850px;
+    top: 100px;
+    height: 900px;
+    left: 80px;
+}
+.Sombra2{
+    position: absolute;
+    width: 525px;
+    height: 715px;
+    left: 1200px;
+    top: 280px;
+}
+
+.cuadrado{
+    position: absolute;
+    width: 490px;
+    height: 560px;
+    left: 675px;
+    top: 150px;
+}
+
+.Sombra3{
+    position: absolute;
+    width: 520px;
+    height: 500px;
+    left: 720px;
+    top: 230px;
+}
+
+.perro{
+    position: absolute;
+    width: 325px;
+    height: 550px;
+    left: 800px;
+    top: 450px;
+}
+
+.inicio1{
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+    color: #141414;
+    position: absolute;
+    width: 325px;
+    height: 550px;
+    left: 770px;
+    top: 130px;
+}
+
+.inicio{
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+    color: #ffffff;
+    position: absolute;
+    width: 325px;
+    height: 550px;
+    left: 768px;
+    top: 125px;
+}
+
+.formulario{
+    position: absolute;
+    width: 490px;
+    height: 560px;
+    left: 675px;
+    display: flex;
+}
+
+.formulario form{
+    display: flex;
+    padding: 0 40px; 
+}
+
+form .username{
+    position: absolute;
+    top: px;
+    color: #a943d8;
+    
+    
+    
+}
+
+form .contraseña{
+    position: absolute;
+    color: #a943d8;
+    
+    
+}
+
+.username input {
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.contraseña input {
+    position: absolute;
+    top: 275px;
+    width: 400px;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    border: 1px solid;
+    background: #ffffff;
+    color: #a943d8;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 80px;
+    height: 40px;
+
+}
+
+.go{
+    position:absolute;
+    top: 350px;
+    left:  890px;
+    width: 100px;
+    height: 0px;
+}
+
+.nombre{
+    text-align:start;
+    position:absolute;
+    top: 225px;
+    left: 720px;
+}
+
+.clave{
+    text-align:start;
+    position:absolute;
+    top: 300px;
+    left: 720px;
+}
+
+.palabras{
+    color: #a943d8;
+    display: flex;
+}
+.palabras1{
+    color: #ffffff;
+    display: flex;
+}
+
+.Cuenta{
+    color: #ffffff;
+    position:absolute;
+    top: 420px;
+    left: 860px;
+}
+
+.Lcuadro{
+    position: absolute;
+    width: 1200px;
+    height: 760px;
+    left: 325px;
+    top: 125px;
+}
+
+.Lcuadro2{
+    position: absolute;
+    width: 490px;
+    height: 830px;
+    left: 675px;
+    top: 60px;
+}
+.listo{
+    position:absolute;
+    top: 750px;
+    left:  895px;
+    width: 100px;
+    height: 0px;
+}
+
+.Rgistro1{
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+    color: #141414;
+    position: absolute;
+    width: 325px;
+    height: 550px;
+    left: 815px;
+    top: 75px;
+}
+
+.Registro{
+    font-size: 50px;
+    font-family: 'Arvo', serif;
+    color: #ffffff;
+    position: absolute;
+    width: 325px;
+    height: 550px;
+    left: 810px;
+    top: 70px;
+}
+
+form .nombreCompleto{
+    position: absolute;
+    top: px;
+    color: #a943d8;
+    
+    
+    
+}
+
+form .nroTelefonico{
+    position: absolute;
+    color: #a943d8;
+    
+    
+}form .correoElectronico{
+    position: absolute;
+    top: px;
+    color: #a943d8;
+    
+    
+    
+}
+
+form .nombreUser{
+    position: absolute;
+    color: #a943d8;
+    
+    
+}form .conclave{
+    position: absolute;
+    top: px;
+    color: #a943d8;
+    
+    
+    
+}
+form .conclaveConfirm{
+    position: absolute;
+    color: #a943d8;
+    
+    
+}
+
+
+.nombreCompleto input{
+    position:absolute;
+    width: 320px;
+    height: 30px;
+    left: 45px;
+    top: 225px;
+    
+}
+.nroTelefonico input{
+
+    position:absolute;
+    top: 305px;
+    width: 320px;
+    height: 30px;
+    left: 45px;
+}
+.correoElectronico input{
+
+    position:absolute;
+    top: 385px;
+    width: 320px;
+    height: 30px;
+    left: 45px;
+}
+.nombreUser input{
+
+    position:absolute;
+    top: 465px;
+    width: 320px;
+    height: 30px;
+    left: 45px;
+}
+.conclave input{
+
+    position:absolute;
+    top: 545px;
+    width: 320px;
+    height: 30px;
+    left: 45px;
+}
+.conclaveConfirm input{
+
+    position:absolute;
+    top: 615px;
+    width: 320px;
+    height: 30px;
+    left: 45px;
+}
+
+.input1{
+    text-align:start;
+    position:absolute;
+    top: 220px;
+    left: 720px;
+}
+.input2{
+    text-align:start;
+    position:absolute;
+    top: 300px;
+    left: 720px;
+}.input3{
+    text-align:start;
+    position:absolute;
+    top: 380px;
+    left: 720px;
+}
+.input4{
+    text-align:start;
+    position:absolute;
+    top: 460px;
+    left: 720px;
+}.input5{
+    text-align:start;
+    position:absolute;
+    top: 540px;
+    left: 720px;
+}
+.input6{
+    text-align:start;
+    position:absolute;
+    top: 610px;
+    left: 720px;
+}
