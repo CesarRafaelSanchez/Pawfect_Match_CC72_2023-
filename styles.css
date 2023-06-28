@@ -1,0 +1,1203 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+::placeholder {color:#cd98ff;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #333333;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display:flex;
+    position:relative;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    padding: 40px;
+    color: aliceblue;
+    display:flex;
+}
+
+.navbar ul li a:hover{
+    color: #cd98ff;
+}
+
+.Izq p{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+    line-height: 100px;
+}
+
+.cuerpo{
+    display: inline-block;
+}
+
+.login h1{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    text-shadow: 5px 5px 7px black;
+}
+
+.cuadrado-2 a{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    position: relative;
+}
+
+.registro h1{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-shadow: 5px 5px 7px black;
+}
+
+.requeriment {
+    font-family: 'Poppins', sans-serif;
+}
+
+.names a{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+}
+
+.Buscar span{
+    background-color: #7f309e;
+    padding: 16px 24px;
+    border-radius: 16px;
+    transition: .3s;
+}
+
+.Buscar:hover span{
+    background: none;
+}
+
+.Buscar:active{
+    transform: scale(0.9);
+}
+
+.imgmenu img{
+    transition: .3s;
+}
+
+.imgmenu:active{
+    transform: scale(0.9);
+}
+
+.findvar p{
+    text-shadow: #590a79;
+}
+
+.imgbusqueda:hover{
+    transition: .3s;
+    background-color:#19b432;
+}
+
+.imgbusqueda1:hover{
+    transition: .3s;
+    background-color:#19b432;
+}
+
+.imgbusqueda2:hover{
+    transition: .3s;
+    background-color:#19b432;
+}
+
+
+
+.imgbusqueda:active{
+    transform: scale(0.9);
+}
+
+.imgbusqueda1:active{
+    transform: scale(0.9);
+}
+
+.imgbusqueda2:active{
+    transform: scale(0.9);
+}
+
+/*Divs*/
+.menu-1{
+    display: flex;
+    position: relative;
+    margin-left: 220px;
+    top: 15px;
+    left: -100px;
+    align-items: center; 
+} 
+
+.menu-2{
+    display: flex;
+    margin-left: 20px;
+    align-items: center; 
+    position: relative;
+    top: 10px;
+    left: 125px;
+}
+
+.menu_container{
+    top: 20px;
+    position:relative;
+}
+
+.logo{
+    width: 500px;
+    align-items:center;
+}
+
+.linea{
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    top: 30px;
+    background-color: #7a7a7a;
+    border: 1px solid #7a7a7a;
+}
+
+.p1{
+    position: absolute;
+    top: 290px;
+    left: 225px;
+}
+
+.p2{
+    position: absolute;
+    top: 750px;
+    left: 400px;
+}
+
+.sombra-1{
+    position: absolute;
+    left: 50px;
+    width: 35%;
+    top: 200px;
+}
+
+.perro-gato {
+    position: absolute;
+    width: 30%;
+    top: 250px;
+    left: 1150px;
+}
+
+.elipce{
+    position: absolute;
+    width: 42%;
+    top: 230px;
+    left: 1000px;
+}
+
+.sombra-2{
+    position: absolute;
+    width: 37%;
+    top: 230px;
+    left: 1100px;
+}
+
+.cuadrado-2{
+    position:absolute;
+    width: 700px;
+    height: 800px;
+    border-radius: 50px;
+    background: #5e2375;
+    top: 120px;
+    left: 625px;
+}
+
+.cuadrado-3{
+    position:absolute;
+    width: 700px;
+    height: 800px;
+    border-radius: 50px;
+    background: #202020;
+    top: 125px;
+    left: 630px;
+}
+
+.Titulo{
+    font-size: 50px;
+    position:absolute;
+    top: 70px;
+    left: 820px;
+}
+
+.username{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 140px;
+    width: 400px;
+    height: 50px;
+    font-size: medium;
+    box-shadow: 5px 5px 7px #313131;
+}
+
+.contraseña{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 140px;
+    width: 400px;
+    height: 50px;
+    font-size: medium;
+    box-shadow: 5px 5px 7px #313131;
+}
+
+.button{
+    cursor: pointer;
+    box-shadow: 5px 5px 7px #313131;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 290px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.reg{
+    position: relative;
+    top: 15px;
+    margin-left: 270px;
+    font-size: 15px;
+}
+
+.sombra-3{
+    position: absolute;
+    top: 210px;
+    left: 40px;
+    width: 600px;
+    height: 610px;
+}
+
+.perro{
+    height: 530px;
+    position: relative;
+    top: 470px;
+    left: 860px;
+}
+
+.cuadrado-4{
+    position:absolute;
+    width: 1167px;
+    height: 830px;
+    border-radius: 50px;
+    background: #572b68;
+    top: 110px;
+    left: 340px;
+}
+
+.cuadrado-5{
+    position:absolute;
+    width: 400px;
+    height: 920px;
+    border-radius: 60px;
+    background: #7f309e;
+    top: 45px;
+    left: 740px;
+}
+
+.Titulo1{
+    font-size: 50px;
+    position:absolute;
+    top: 39px;
+    left: 850px;
+}
+
+.nombre1{
+    margin-top: 145px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+}
+
+.numerotelefonico1{
+    margin-top: 250px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+}
+
+.correo1{
+    margin-top: 357px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+}
+
+.nombreuser1{
+    margin-top: 465px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+}
+
+.contraseñauno1{
+    margin-top: 620px;
+    margin-left: 695px;
+    width: 500px;
+}
+
+.contraseñaconfin1{
+    margin-top: 728px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+}
+
+.nombre{
+    position: relative;
+    margin-top: 72px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+    font-size: medium;
+}
+
+.numerotelefonico{
+    position: relative;
+    margin-top: 75px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+    font-size: medium;
+}
+
+.correo{
+    position: relative;
+    margin-top: 75px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+    font-size: medium;
+}
+
+.nombreuser{
+    position: relative;
+    margin-top: 75px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+    font-size: medium;
+}
+
+.contraseñauno{
+    position: relative;
+    margin-top: 125px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+    font-size: medium;
+}
+
+.contraseñaconfin{
+    position: relative;
+    margin-top: 75px;
+    margin-left: 695px;
+    width: 500px;
+    height: 50px;
+    font-size: medium;
+}
+
+.listo{
+    cursor: pointer;
+    color: #7f309e;
+    box-shadow: 5px 5px 7px #313131;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 880px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.findvar{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    text-shadow: #590a79;
+    height: 90px;
+    display:flex;
+    font-size: 30px;
+    border-radius: 40px;
+    color: #e7cdff;
+    background-color:#7f309e;
+}
+
+.pvar{
+    margin-left: 65px;
+}
+
+.busqueda{
+    background-color:#490e61;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 25px;
+    width: 1000px;
+    height: 55px;
+}
+
+.Buscar{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    background-color:#490e61;
+    border-radius: 20px;
+    color: #e1c1ff;
+    display: flex;
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.imgmenu{
+    margin-right: 40px;
+    height: 70px;
+    width: 155px;
+    border-radius: 16px;
+    border: none;
+    margin-left: 520px;
+    cursor: pointer;
+    background-color: #490e61;
+}
+
+.imgmenu-2{
+    margin-left: 5px;
+    height: 40px;
+    width: 140px;
+}
+
+.comunidad{
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    background-color: #490e61;
+    height: 820px;
+    width: 1800px;
+}
+
+.VozAnimal{
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    position: absolute;
+    background-color: #d876ff;
+    height: 250px;
+    width: 1700px;
+}
+
+.logovoz{
+    margin-left: 20px;
+    margin-top:  10px;
+    border-radius: 110px;
+}
+
+.Patitas{
+    border-radius: 30px;
+    margin-top: 285px;
+    margin-left: 50px;
+    position: absolute;
+    background-color: #d876ff;
+    height: 250px;
+    width: 1700px;
+}
+
+.logopatitas{
+    width: 13.5%;
+    margin-left: 20px;
+    margin-top:  10px;
+    border-radius: 510px;
+}
+
+
+.Arba{
+    border-radius: 30px;
+    margin-top: 545px;
+    margin-left: 50px;
+    position: absolute;
+    background-color: #d876ff;
+    height: 250px;
+    width: 1700px;
+}
+
+.logoarba{
+    width: 16%;
+    margin-left: 20px;
+    top:  0px;
+    border-radius: 110px;
+}
+
+.joey{
+    height: 200px;
+    width: 70px;
+}
+
+
+.imgbusqueda{
+    cursor: pointer;
+    top: -12px;
+    left: 1410px;
+    position: relative;
+    height: 250px;
+    width: 70px;
+    border-radius: 20px;
+    border: none;
+    background-color:#d876ff;
+}
+
+.imgbusqueda1{
+    cursor: pointer;
+    top: 0px;
+    left: 1365px;
+    position: relative;
+    height: 250px;
+    width: 70px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d876ff;
+}
+
+.imgbusqueda2{
+    cursor: pointer;
+    top: -16px;
+    left: 1405px;
+    position: relative;
+    height: 250px;
+    width: 70px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d876ff;
+}
+
+.coo{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.por1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.por{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.imgimg{
+    margin-left: 260px;
+    width: 75%;
+}
+
+.imgimg1{
+    margin-left: 180px;
+    width: 40%;
+}
+
+.somos{
+    height: 279px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background-color: #7f309e;
+}
+
+.mision{
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.vision{
+    height: 279px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background-color: #7f309e;
+}
+
+.img1{
+    margin-right: 60px;
+    height: 255px;
+}
+
+.img2{
+    margin-left: 60px;
+    height: 255px;
+}
+
+.img3{
+    margin-right: 60px;
+    width: 19%;
+}
+
+.findvar input{
+    color: white;
+}
+
+.doo1{
+    display: flex;
+    position: relative;
+    left: 400px;
+    top: -255px;
+    height: 150px;
+    width: 530px;
+    background-color: #9d5db6;
+    align-items: center;
+}
+
+.doo2{
+    display: flex;
+    position: relative;
+    left: 400px;
+    top: -250px;
+    height: 150px;
+    width: 530px;
+    background-color: #9d5db6;
+    align-items: center;
+}
+
+.doo3{
+    display: flex;
+    position: relative;
+    left: 400px;
+    top: -260px;
+    height: 150px;
+    width: 530px;
+    background-color: #9d5db6;
+    align-items: center;
+}
+
+.comunidad h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comunidad p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.doo4{
+    margin-right: 600px;
+    left: 400px;
+    position: relative;
+    top: -250px;
+}
+
+.doo5{
+    margin-right: 600px;
+    left: 400px;
+    position: relative;
+    top: -250px;
+}
+
+.doo6{
+    margin-right: 600px;
+    left: 400px;
+    position: relative;
+    top: -260px;
+}
+
+.imaga img{
+    position: absolute;
+}
+
+.imaga1{
+    left: 1000px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.imaga2{
+    left: 1230px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.imaga3{
+    left: 1450px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.imaga6{
+    left: 1000px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.imaga7{
+    left: 1230px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.imaga8{
+    left: 1450px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.imaga10{
+    left: 1000px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.imaga11{
+    left: 1230px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.imaga12{
+    left: 1450px;
+    top: 25px;
+    width: 200px;
+    height: 200px;
+}
+
+.body-1{
+    top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.forr{
+    margin-left: 450px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.imgimg2{
+    margin-left: -20px;
+    width: 50%;
+}
+
+.interesante{
+    left: -570px;
+    top: 220px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.button-menu{
+    margin-left: 50px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.button-menu:active{
+    transform: scale(0.9);
+}
+
+.body-2{
+    position: relative;
+    margin-left: 645px;
+    margin-top: 300px;
+}
+
+.button-menu2{
+    position: relative;
+    left: 1050px;
+    top: -115px;
+    height: 50px;
+    width: 150px;
+    border-color: none;
+    border-radius: 20px;
+    background-color:#7f309e;
+    cursor: pointer;
+    border: none;
+}
+.button-menu2 h1{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff ;
+}
+.button-menu2:active{
+    transform: scale(0.9);
+}
+
+.body-3{
+    margin-top: -75px;
+}
+
+.background-donativo{
+    margin-left: 346px;
+    margin-top: 29px;
+    height: 833px;
+}
+
+.tarje{
+    height: 80px;
+    background: none;
+}
+
+.donacion{
+    left: 650px;
+    top: 140px;
+    font-size: 30px;
+    width: 500px;
+    height: 45px;
+    background:#ffffff2c;
+    border-radius: 10px;
+    position: relative;
+}
+
+.donacionbutton{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    border: #202020;
+    position: relative;
+    border-radius: 10px;
+    left: 630px;
+    top: 137px;
+    width: 100px;
+    height: 45px;
+    background-color: #710c99;
+}
+
+.donacionbutton a{
+    color: white;
+}
+
+.donacionbutton:active{
+    transform: scale(0.9);
+}
+
+.tarjetas{
+    position: absolute;
+    height: 50px;
+    margin-left: -1100px;
+    margin-top: 750px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.body-4{
+    margin-top: 10px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #572b689d;
+}
+
+.body-4 input{
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.body-4 a{
+    color:#d1a9e0;
+}
+
+.confirmarpago{
+    top: -40px;
+    position: relative;
+    left: 143px;
+    color: white;
+    height: 40px;
+    border: none;
+    background-color: #9c00da;
+    border-radius: 6px;
+    font-size: 25px;
+}
+
+.Dinero-1{
+    position: relative;
+    left: 200px;
+}
+
+.prol{
+    top: 40px;
+    left: 280px;
+    position: relative;
+    height: 150px;
+}
+
+.pror{
+    top: -300px;
+    left: -650px;
+    position: relative;
+    height: 150px;
+}
+
+.adopcion_mascota{
+    margin-top: 120px;
+    margin-left: 600px;
+}
+
+.registro_mascota{
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+.adopcion_mascota3{
+    top: -170px;
+    left: -450px;
+    position: relative;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color:white;
+    background-color:#9c00da;
+    height: 50px;
+    cursor: pointer;
+}
+
+.registro_mascota2{
+    top: -170px;
+    left: -430px;
+    position: relative;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color:white;
+    background-color:#9c00da;
+    height: 50px;
+    cursor: pointer;
+}
+
+.apod_mask{
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: relative;
+    background-color: #490e61;
+    height: 820px;
+    width: 1800px;
+}
+
+
+
+.Dolce_1{
+    margin-top: 8px;
+    width: 330px;
+    margin-left: 150px;
+}
+
+
+.Pulgacito_1{
+    margin-top: 6px;
+    width: 330px;
+    margin-left: 150px;
+}
+
+.Max{
+    border-radius: 30px;
+    margin-top: 545px;
+    margin-left: 50px;
+    position: absolute;
+    background-color: #d876ff;
+    height: 250px;
+    width: 1700px;
+}
+
+.Max_1{
+    margin-top: 8px;
+    width: 330px;
+    margin-left: 150px;
+}
+
+.Dolce{
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    position: absolute;
+    background-color: #d876ff;
+    height: 250px;
+    width: 1700px;
+}
+
+.Pulgarcito{
+    border-radius: 30px;
+    margin-top: 285px;
+    margin-left: 50px;
+    position: absolute;
+    background-color: #d876ff;
+    height: 250px;
+    width: 1700px;
+}
+
+.duu1{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    position: relative;
+    left: 500px;
+    top: -205px;
+    height: 150px;
+    width: 430px;
+    background-color: #9d5db6;
+    align-items: center;
+}
+
+.duu2{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    position: relative;
+    left: 500px;
+    top: -205px;
+    height: 150px;
+    width: 430px;
+    background-color: #9d5db6;
+    align-items: center;
+}
+
+.duu3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    position: relative;
+    left: 500px;
+    top: -205px;
+    height: 150px;
+    width: 430px;
+    background-color: #9d5db6;
+    align-items: center;
+}
+
+.duu4{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    position: relative;
+    left: 1000px;
+    top: -405px;
+    height: 150px;
+    width: 430px;
+    align-items: center;
+}
+
+.registromosacota{
+    margin-left: 700px;
+    margin-top: 110px;
+    color: violet;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registromosacota input{
+    width: 240px;
+    font-size: 15px;
+    border: none;
+}
+
+.descripcion_mascota{
+    height: 100px;
+}
+
+.nombre_mascota{
+    color: violet;
+    background-color:#202020
+}
+
+.genero_mascota{
+    color: violet;
+    background-color:#202020
+}
+
+.edad_mascota{
+    color: violet;
+    background-color:#202020
+}
+
+.peso_mascota{
+    color: violet;
+    background-color: #202020;
+}
+
+.fecha_registro{
+    color: violet;
+    background-color: #202020;
+}
+
+.descripcion_mascota{
+    color: violet;
+    background-color: #202020;
+}
+
+.papaa{
+    margin-right: 120px;
+}
+.papaa1{
+    margin-right: 170px;
+}
+.imagen_registro{
+    margin-top: 100px;
+    margin-left: 940px;
+}
+
+.adopcion_mascota1{
+    left: 120px;
+    top: 100px;
+
+    position: relative;
+    border: none;
+    box-shadow: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color:white;
+    background-color:#9c00da;
+    height: 50px;
+    cursor: pointer;
+}
